@@ -43,4 +43,28 @@ public class MyMath {
         }
         return maxNum;
     }
+    public static double sinus (double opposite, double hypotenuse){
+        double sin = opposite / hypotenuse;
+        return sin;
+    }
+
+    public static double cosine (double adjacent, double hypotenuse){
+        double cos = adjacent / hypotenuse;
+        return cos;
+    }
+
+    public static double tangent (double opposite, double adjacent){
+        double tan = opposite / adjacent;
+        return tan;
+    }
+
+    public static double squareOfCircle (double radius){
+        double squareAnsw = PI * radius * radius;
+        return squareAnsw;
+    }
+
+    public static double lengthOfCircle (double radius){
+        double lengthAnsw = PI * radius * 2;
+        return lengthAnsw;
+    }
 }
